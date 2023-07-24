@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal-case{
+    background-color: hsl(222, 26%, 31%);
+    height: 90vh;
+    width: 70%;
+    display: flex;
+    padding-top: 2rem;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.calc {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 23.5rem;
+    color: white;
+    padding-bottom: 1rem;
+
+
+}
+.screen{
+    background-color:hsl(224, 36%, 15%) ;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    height: 10vh;
+    width: 430px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.buttons-case{
+   width: 400px;
+   height: 50vh;
+   background-color: hsl(223, 31%, 20%);
+   border-radius: 5px;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   gap: 17px;
+   padding: 2rem 1.5rem 0 1.5rem;
+}
+
+.set1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1rem;
+}
+
+.btn{
+  flex: 1;
+  background: rgb(241,241,241) ;
+  color: black;
+  font-weight: 800;
+  font-size: 22px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    box-shadow:  rgb(108, 99, 99) 3px 1px 4px ;
+} 
+
+.btn-action{
+ flex: 1;
+ background-color: rgb(241,17, 17);
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 20px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   box-shadow: rgb(130, 13, 13) 3px 1px 4px ;
+}
+
+.reset{
+ flex: 1;
+ background-color: rgb(241,17, 17);
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 20px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14.2vw;
+  box-shadow: rgb(130, 13, 13) 3px 1px 4px ;
+}
+/* .reset{
+     flex: 1;
+ background-color: rgb(241,17, 17);
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size:  32px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.equal{
+  flex: 1;
+  background:rgb(121, 53, 121);
+  color: black;
+  font-weight: 800;
+  font-size:  20px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14.2vw;
+  box-shadow:   rgb(168, 63, 168) 3px 1px 4px ;
+}
+
+.btn:hover{
+    background: rgb(110, 3, 110);
+    color:red ;
+
+}
